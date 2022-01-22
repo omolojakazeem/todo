@@ -1,7 +1,9 @@
 import React from "react";
 
 const NoMatch = () => {
-  return <div>Hello from Error Page</div>;
+  return (
+    <div className="about__content">The route you entered is not valid</div>
+  );
 };
 
 export default NoMatch;
