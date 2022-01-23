@@ -6,7 +6,7 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      path: "/",
+      path: "/todo",
       text: "Home",
     },
     {
@@ -36,7 +36,7 @@ const Navbar = () => {
           return (
             <li key={link.id}>
               <NavLink onClick={() => closeMenu()} to={link.path}>
-                "{link.text}
+                {link.text}
               </NavLink>
             </li>
           );

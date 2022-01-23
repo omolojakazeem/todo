@@ -13,7 +13,7 @@ ReactDOM.render(
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<TodoContainer />} />
+        <Route path="/todo" element={<TodoContainer />} />
         <Route path="about/" element={<About />}>
           <Route path=":slug" element={<SinglePage />}></Route>
         </Route>
